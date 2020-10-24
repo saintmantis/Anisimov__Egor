@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Лаба 1_Личная карточка</title>
+  <meta charset="utf-8">
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+	<center>
+		  <h1 class = "style">Личная карточка</h1>
+		  <p><img src=".\картинка_Laba1.jpg"  width="480" height="640"></p>
+	</center>
+  <p class = "Small_headers">Анисимов Егор Дмитриевич</p>
+  <p class = "Plain_text" align="justify">
+	Мужчина, 20 лет, родился 2 мая 2000 <br>
+	Программист-разработчик <br>
+	<p class = "Plain_text" align="justify">
+	Информационные технологии, интернет, телеком <br>
+		- Программирование, Разработка
+	</p>
+	<p class = "Plain_text" align="justify">
+		Занятость: частичная занятость, полная занятость <br>
+   График работы: гибкий график, полный день, удаленная работа
+		</p>
+	</p>
+	  <p class = "Headings">
+		Обо мне
+	</p>
+  <p class = "Plain_text" align="justify">
+	Начал программировать 3.5 года назад на С, затем С++ (QT). В настоящий момент пишу на С# (MVC (entity framework core + html/css),T-SQL, Unity, WPF). Понимание ООП, различных паттернов проектирования, алгоритмов и структур данных. Желание обучаться, люблю работать в команде, интересуюсь новыми технологиями. Знание английского языка на уровне чтения технической документации. В последние годы проходил обучение по специальности информатика и вычислительная техника. Имеется опыт работы ASP.Net MVC, а так же опыт удаленной работы. Занимаюсь спортом, без вредных привычек.
+	  </p>
+	  <p class = "Headings">
+		Неоконченное высшее образование
+	</p>
+	<p class = "Plain_text" align="justify">
+		2022<br>
+		Московский государственный технологический университет "МГТУ Станкин",<br>
+		Москва<br>
+		Институт информационных систем и технологий, Информатика и вычислительная техника<br>
+		  </p>
+
+
+		  <div class="window" id="box">
+			
+			<p class = right>
+			<input type="submit" onClick="changeColor();" value="Фон"/>
+			<input type="submit" onClick="add()" value="Птичка"/>
+			<img src=".\Белый_квадрат.jpg"  id="id" width="180" height="180">
+		   </p>
+		</div>
+		<p class = "Headings">
+			Опыт работы
+		</p>
+		
+		
+		<p class = "Plain_text" align="justify">
+			(Июль 2020 — сентябрь 2020) ООО БРО,  <a href="https://www.bpo.travel/"> bpo.travel </a> Туристичекая компания <br>
+			 - Программист разработчик
+		</p>
+		
+		<p class = "Headings">
+			Знание языков
+		</p>
+		<p class = "Plain_text" align="justify">
+			Русский — Родной <br>
+			Английский — B1 — Средний <br>
+			Немецкий — B1 — Средний <br>
+		</p>
+				
+				
+			
+			<script> // Фон
+			let num= 1;
+					function changeColor(){	
+					 if (num%2==0)
+					 {
+						document.body.style.backgroundImage = "url('https://funart.pro/uploads/posts/2020-04/1587306585_31-p-belie-foni-dlya-saitov-72.jpg')";
+						num++;
+					 } else{
+						document.body.style.backgroundImage = "url('https://html5book.ru/wp-content/uploads/2016/09/background74.jpg')"; 
+						num++;
+					 }
+					}
+			</script>
+				
+
+			 <script>
+				 let i = 1;
+				 var z = document.getElementById("id");
+				 z.style.visibility = "hidden"
+				  function add() {
+			  		var image = [];
+				if(i%2!=0)
+			  {
+				   image[i]="https://thumbs.gfycat.com/EqualDistinctGiantschnauzer-size_restricted.gif";
+			  		z.src = image[i];
+					i++;
+					z.style.visibility = "visible"
+			  }
+			  else{
+					 image[i]="https://upload.wikimedia.org/wikipedia/ru/9/99/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82.jpg";
+					 z.src = image[i];
+					 i++;
+					 z.style.visibility = "hidden"
+			  }
+			}
+			</script>
+
+
+
+		<footer>
+			<center>
+			<p class="Plain_text"> Связь: <a href="https://www.instagram.com/_gr.yaaa_/">instagram</a> / <a href="https://vk.com/a_egor_ka">vk</a>.</p>
+			<p class="Plain_text"> <a href="#">Back to top</a> </p>
+			</center>
+		</footer>
+ </body>
+</html>

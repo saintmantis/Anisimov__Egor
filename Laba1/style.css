@@ -1,0 +1,55 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 11pt; /* Размер основного шрифта в пунктах  */
+	background-color: #f0f0f0; /* Цвет фона веб-страницы */
+	color: #333; /* Цвет основного текста */ 
+	background-image: url(https://funart.pro/uploads/posts/2020-04/1587306585_31-p-belie-foni-dlya-saitov-72.jpg);
+   background-size: 100%; /* Современные браузеры */
+	background-size: cover;
+ }
+ 
+ h1 {
+	color: #a52a2a; /* Цвет заголовка */
+	font-size: 24pt; /* Размер шрифта в пунктах */
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal; /* Нормальное начертание текста  */
+ }
+ h1.style {
+	color: #a52a2a; /* Цвет заголовка */
+	font-size: 24pt; /* Размер шрифта в пунктах */
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold; /* Нормальное начертание текста  */
+ }
+ p.Headings{
+	 font-family: 'Times New Roman', Times, serif;
+	 font-size: 20pt;
+	 font-weight: bold;
+	 margin-right: 10%; /* Отступ справа */
+    margin-left: 10%; /* Отступ слева */
+ }
+ p.Small_headers{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17pt;
+	font-weight: bold;
+	margin-right: 10%; /* Отступ справа */
+	margin-left: 10%; /* Отступ слева */
+}
+ p.Plain_text{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14pt;
+	margin-right: 10%; /* Отступ справа */
+   margin-left: 10%; /* Отступ слева */
+ }
+ p.right{
+	 float: right;
+	 margin-right: 4.5%; /* Отступ справа */
+ }
+ footer {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14pt;
+	left: 0; bottom: 0; /* Левый нижний угол */
+	padding: 3px; /* Поля вокруг текста */
+	background: #e8eef1; /* Цвет фона */
+	color: rgb(0, 0, 0); /* Цвет текста */
+	width: 100%; /* Ширина слоя */
+  }
